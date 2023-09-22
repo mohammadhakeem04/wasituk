@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>wasituk</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1> wasituk مرحبًا بك </h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#">الصفحة الرئيسية</a></li>
+            <li><a href="#">معلومات عنا</a></li>
+            <li><a href="#">اتصل بنا</a></li>
+        </ul>
+    </nav>
+    <main>
+        <h2>مرحبًا بك في الموقع!</h2>
+        <p>هذا مثال على صفحة ويب بسيطة.</p>
+    </main>
+    <footer>
+        <p>© 2023 اسم الموقع. جميع الحقوق محفوظة.</p>
+    </footer>
+</body>
+</html>
+/* style.css */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px;
+}
